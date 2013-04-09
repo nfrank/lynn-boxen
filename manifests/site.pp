@@ -81,7 +81,6 @@ node default {
 	include redis
 	include mongodb
 	include propane
-	include osx
 	include onepassword
 	include macvim
 

@@ -60,6 +60,7 @@ node default {
 	#include java
 
 	# my own shit
+	include dropbox
 	include alfred
 	include virtualbox
 	include vagrant

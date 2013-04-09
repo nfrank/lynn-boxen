@@ -56,6 +56,30 @@ node default {
   include nginx
   include nvm
 
+	# my own shit
+	include alfred
+	include virtualbox
+	include vagrant
+	include iterm2
+	include heroku
+	include pow
+	include imagemagick
+	include skype
+	include googledrive
+	include ctags
+	include chrome
+	include transmission
+	include clojure
+	include zsh
+	include wget
+	include vlc
+	include redis
+	include mongodb
+	include propane
+	include osx
+	include onepassword
+	include macvim
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')

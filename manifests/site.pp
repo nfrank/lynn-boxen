@@ -57,7 +57,7 @@ node default {
   include nvm
 	include sysctl::ipforwarding
 	include xquartz
-	include java
+	#include java
 
 	# my own shit
 	include alfred
@@ -74,7 +74,7 @@ node default {
 	include chrome
 	include chrome::canary
 	include transmission
-	include clojure
+	#include clojure
 	include zsh
 	include wget
 	include vlc

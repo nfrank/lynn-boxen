@@ -69,6 +69,7 @@ node default {
 	include googledrive
 	include ctags
 	include chrome
+	include chrome::canary
 	include transmission
 	include clojure
 	include zsh

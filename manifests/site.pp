@@ -55,6 +55,7 @@ node default {
   include hub
   include nginx
   include nvm
+	include sysctl::ipforwarding
 
 	# my own shit
 	include alfred

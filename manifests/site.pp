@@ -57,6 +57,7 @@ node default {
   include nvm
 	include sysctl::ipforwarding
 	include xquartz
+	include java
 
 	# my own shit
 	include alfred

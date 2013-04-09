@@ -32,6 +32,7 @@ github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 github "sysctl",   "1.0.0"
 github "xquartz",  "1.0.0"
+github "java",		 "1.0.0"
 
 
 # my own shit

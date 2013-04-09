@@ -60,7 +60,7 @@ node default {
 	include alfred
 	include virtualbox
 	include vagrant
-	include iterm2
+	include iterm2::stable
 	include postgresql
 	include heroku
 	include pow

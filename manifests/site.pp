@@ -56,6 +56,7 @@ node default {
   include nginx
   include nvm
 	include sysctl::ipforwarding
+	include xquartz
 
 	# my own shit
 	include alfred

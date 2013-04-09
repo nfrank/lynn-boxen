@@ -31,6 +31,8 @@ github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 github "sysctl",   "1.0.0"
+github "xquartz",  "1.0.0"
+
 
 # my own shit
 mod "dropbox",      :git => "git://github.com/boxen/puppet-dropbox.git"

@@ -34,7 +34,6 @@ github "sysctl",   "1.0.0"
 github "xquartz",  "1.0.0"
 github "java",		 "1.0.0"
 
-
 # my own shit
 mod "dropbox",      :git => "git://github.com/boxen/puppet-dropbox.git"
 mod "tmux",         :git => "git://github.com/boxen/puppet-tmux.git"
@@ -60,7 +59,9 @@ mod "propane",      :git => "git://github.com/boxen/puppet-propane.git"
 mod "osx",          :git => "git://github.com/boxen/puppet-osx.git"
 mod "onepassword",  :git => "git://github.com/boxen/puppet-onepassword.git"
 mod "macvim",       :git => "git://github.com/boxen/puppet-macvim.git"
-mod "postgresql",   :git => "git://github.com/boxen/puppet-postgresql.git"
+mod "python",       :git => "https://github.com/boxen/puppet-python.git"
+mod "postgresapp",  :git => "https://github.com/boxen/puppet-postgresapp.git"
+mod "phantomjs",    :git => "https://github.com/boxen/puppet-phantomjs.git"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -1,3 +1,192 @@
+GIT
+  remote: git://github.com/boxen/puppet-alfred.git
+  ref: master
+  sha: c802ff798478731f756c11f6d17e633ba826c7da
+  specs:
+    alfred (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-chrome.git
+  ref: master
+  sha: fd66bbf3383f1cad74db4dc1264c70aa8159d2ba
+  specs:
+    chrome (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-clojure.git
+  ref: master
+  sha: 33ed2b2136459d7a18c515af73626b10e2e49635
+  specs:
+    clojure (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-ctags.git
+  ref: master
+  sha: 9218badf661fb189b16b544141402026e3bee88b
+  specs:
+    ctags (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-dropbox.git
+  ref: master
+  sha: 8a9982b66632b80f6f479f7c315fab15f789f5dc
+  specs:
+    dropbox (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-googledrive.git
+  ref: master
+  sha: d20bb568a4040a62ba62712fd01a4d8ed57e9fca
+  specs:
+    googledrive (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-heroku.git
+  ref: master
+  sha: 83836a19ef5818d27f632620cc42f752b3566cf2
+  specs:
+    heroku (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-imagemagick.git
+  ref: master
+  sha: 3ae2a0a633fc6a39339e7d1cdad954379877d993
+  specs:
+    imagemagick (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-iterm2.git
+  ref: master
+  sha: 2e3d7ef3bcb6e00f52ef776d85b716be5fdd8555
+  specs:
+    iterm2 (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-macvim.git
+  ref: master
+  sha: 1e1d3b167c046797da2a31026a10127d207c5a6a
+  specs:
+    macvim (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-mongodb.git
+  ref: master
+  sha: 0cd103f3bf2d11fe50b934bbc174e5abc54cfc46
+  specs:
+    mongodb (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-onepassword.git
+  ref: master
+  sha: f5d31a3a1198882d6c604839c1eff4a8343e8eee
+  specs:
+    onepassword (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-osx.git
+  ref: master
+  sha: 034db9459f0de39a412a751bc662ae1ca7fa58ad
+  specs:
+    osx (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-pow.git
+  ref: master
+  sha: 71b97e479c2d9f8a6ecb28a9c53bbeee31c99075
+  specs:
+    pow (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-propane.git
+  ref: master
+  sha: 3ecddfba5ffcdc097cd15e324aad550c78a8abb0
+  specs:
+    propane (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-redis.git
+  ref: master
+  sha: 803d215272b24590b5b52b228be9805e80749c8a
+  specs:
+    redis (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-skype.git
+  ref: master
+  sha: 3b04a940744f3cd38ea8864dc9755322ab197700
+  specs:
+    skype (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-tmux.git
+  ref: master
+  sha: cc5c2f0d15db3dfe11b2b4bb3d771403f728a6bf
+  specs:
+    tmux (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-transmission.git
+  ref: master
+  sha: 4eeefbea3c1ecae8c22c94ef4f42ac39d8cc61ca
+  specs:
+    transmission (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-vagrant.git
+  ref: master
+  sha: e9163825b1f04754a2dd2a411171a43ab081d715
+  specs:
+    vagrant (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-virtualbox.git
+  ref: master
+  sha: 30c79e48f321fd680a5f64ffa5c8531933e256f7
+  specs:
+    virtualbox (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-vlc.git
+  ref: master
+  sha: e98680b2ae01088f1363382c3cb3a112fae54bc4
+  specs:
+    vlc (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-wget.git
+  ref: master
+  sha: 4d37df01c7dfaf13b4ee04d72e2e426dae855ac0
+  specs:
+    wget (0.0.1)
+
+GIT
+  remote: git://github.com/boxen/puppet-zsh.git
+  ref: master
+  sha: cf8221c8fec426af14745ef475e6ab9e52e4f1d3
+  specs:
+    zsh (0.0.1)
+
+GIT
+  remote: https://github.com/boxen/puppet-phantomjs.git
+  ref: master
+  sha: 336ac90746143af6633a6650cb400b61008be197
+  specs:
+    phantomjs (0.0.1)
+
+GIT
+  remote: https://github.com/boxen/puppet-postgresapp.git
+  ref: master
+  sha: 1e14450a839f503e0531da55c2b6647e836f2d87
+  specs:
+    postgresapp (0.0.1)
+
+GIT
+  remote: https://github.com/boxen/puppet-python.git
+  ref: master
+  sha: 0cb89ac6fe25bf0ef4af6f2443d0ea52133eeb0f
+  specs:
+    python (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
@@ -29,6 +218,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -54,6 +248,16 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -64,17 +268,47 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  alfred (>= 0)
   boxen (= 1.2.0)
+  chrome (>= 0)
+  clojure (>= 0)
+  ctags (>= 0)
   dnsmasq (= 1.0.0)
+  dropbox (>= 0)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  googledrive (>= 0)
+  heroku (>= 0)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
+  imagemagick (>= 0)
   inifile (= 0.9.0)
+  iterm2 (>= 0)
+  java (= 1.0.0)
+  macvim (>= 0)
+  mongodb (>= 0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  onepassword (>= 0)
+  osx (>= 0)
+  phantomjs (>= 0)
+  postgresapp (>= 0)
+  pow (>= 0)
+  propane (>= 0)
+  python (>= 0)
+  redis (>= 0)
   ruby (= 3.1.0)
+  skype (>= 0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
+  tmux (>= 0)
+  transmission (>= 0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
+  vlc (>= 0)
+  wget (>= 0)
+  xquartz (= 1.0.0)
+  zsh (>= 0)
 

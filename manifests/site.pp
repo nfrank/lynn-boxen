@@ -57,6 +57,7 @@ node default {
   include nvm
 	include sysctl::ipforwarding
 	include xquartz
+	include python
 	#include java
 
 	# my own shit
@@ -65,7 +66,7 @@ node default {
 	include virtualbox
 	include vagrant
 	include iterm2::stable
-	include postgresql
+	include postgresapp
 	include heroku
 	include pow
 	include imagemagick
@@ -84,6 +85,7 @@ node default {
 	include propane
 	include onepassword
 	include macvim
+	include phantomjs
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {

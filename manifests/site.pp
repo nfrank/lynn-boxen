@@ -55,37 +55,37 @@ node default {
   include hub
   include nginx
   include nvm
-	include sysctl::ipforwarding
-	include xquartz
-	include python
-	#include java
+  include sysctl::ipforwarding
+  include xquartz
+  include python
+  #include java
 
-	# my own shit
-	include dropbox
-	include alfred
-	include virtualbox
-	include vagrant
-	include iterm2::stable
-	include postgresapp
-	include heroku
-	include pow
-	include imagemagick
-	include skype
-	include googledrive
-	include ctags
-	include chrome
-	include chrome::canary
-	include transmission
-	#include clojure
-	include zsh
-	include wget
-	include vlc
-	include redis
-	include mongodb
-	include propane
-	include onepassword
-	include macvim
-	include phantomjs
+  # my own shit
+  include dropbox
+  include alfred
+  include virtualbox
+  include vagrant
+  include iterm2::stable
+  include postgresapp
+  include heroku
+  include pow
+  include imagemagick
+  include skype
+  include googledrive
+  include ctags
+  include chrome
+  include chrome::canary
+  include transmission
+  #include clojure
+  include zsh
+  include wget
+  include vlc
+  include redis
+  include mongodb
+  include propane
+  include onepassword
+  include macvim
+  include phantomjs
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {

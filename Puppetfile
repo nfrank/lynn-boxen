@@ -27,12 +27,13 @@ github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
 github "nodejs",   "1.0.0"
 github "nvm",      "1.0.0"
-github "ruby",     "3.1.0"
+github "ruby",     "4.0.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 github "sysctl",   "1.0.0"
 github "xquartz",  "1.0.0"
 github "java",		 "1.0.0"
+
 
 # my own shit
 mod "dropbox",      :git => "git://github.com/boxen/puppet-dropbox.git"

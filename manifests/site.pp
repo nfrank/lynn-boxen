@@ -98,10 +98,10 @@ node default {
   include nodejs::0-8
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
-  include ruby::1_9_3
-  include ruby::2_0_0
+  #include ruby::1_8_7
+  #include ruby::1_9_2
+  #include ruby::1_9_3
+  #include ruby::2_0_0
 
 
   # heroku
@@ -123,37 +123,44 @@ node default {
 
   # rbenv
 
-  ruby::plugin { 'rbenv-vars':
-    source  => 'sstephenson/rbenv-vars'
-  }
+  #require ruby::1_9_3
+  require ruby::2_0_0
 
-  ruby::plugin { 'rbenv-whatis':
-    source  => 'rkh/rbenv-whatis'
-  }
+  #class { 'ruby::global':
+    #version => '2.0.0'
+  #}
 
-  ruby::plugin { 'rbenv-use':
-    source  => 'rkh/rbenv-use'
-  }
+  #ruby::plugin { 'rbenv-vars':
+    #source  => 'sstephenson/rbenv-vars'
+  #}
 
-  ruby::plugin { 'rbenv-update':
-    source  => 'rkh/rbenv-update'
-  }
+  #ruby::plugin { 'rbenv-whatis':
+    #source  => 'rkh/rbenv-whatis'
+  #}
 
-  ruby::plugin { 'rbenv-gemset':
-    source  => 'jamis/rbenv-gemset'
-  }
+  #ruby::plugin { 'rbenv-use':
+    #source  => 'rkh/rbenv-use'
+  #}
 
-  ruby::plugin { 'rbenv-each':
-    source  => 'chriseppstein/rbenv-each'
-  }
+  #ruby::plugin { 'rbenv-update':
+    #source  => 'rkh/rbenv-update'
+  #}
 
-  ruby::plugin { 'rbenv-default-gems':
-    source  => 'sstephenson/rbenv-default-gems'
-  }
+  #ruby::plugin { 'rbenv-gemset':
+    #source  => 'jamis/rbenv-gemset'
+  #}
 
-  ruby::plugin { 'rbenv-sudo':
-    source  => 'dcarley/rbenv-sudo'
-  }
+  #ruby::plugin { 'rbenv-each':
+    #source  => 'chriseppstein/rbenv-each'
+  #}
+
+  #ruby::plugin { 'rbenv-default-gems':
+    #source  => 'sstephenson/rbenv-default-gems'
+  #}
+
+  #ruby::plugin { 'rbenv-sudo':
+    #source  => 'dcarley/rbenv-sudo'
+  #}
 
   # common, useful packages
   package {

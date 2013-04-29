@@ -111,13 +111,6 @@ GIT
     redis (0.0.1)
 
 GIT
-  remote: git://github.com/boxen/puppet-ruby.git
-  ref: master
-  sha: 769958d89366126be005aff01f35321a15fb5eaa
-  specs:
-    ruby (0.0.1)
-
-GIT
   remote: git://github.com/boxen/puppet-skype.git
   ref: master
   sha: 3b04a940744f3cd38ea8864dc9755322ab197700
@@ -245,6 +238,11 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-ruby
+  specs:
+    ruby (4.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -300,7 +298,7 @@ DEPENDENCIES
   propane (>= 0)
   python (>= 0)
   redis (>= 0)
-  ruby (>= 0)
+  ruby (= 4.0.0)
   skype (>= 0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)

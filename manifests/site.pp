@@ -50,6 +50,10 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
+  include ruby::1_8_7
+  #include ruby::2_0_0
+
+
   include dnsmasq
   include git
   include hub
@@ -100,7 +104,7 @@ node default {
   # default ruby versions
   #include ruby::1_8_7
   #include ruby::1_9_2
-  #include ruby::1_9_3
+  #include ruby::1_9-3
   #include ruby::2_0_0
 
 
@@ -122,9 +126,6 @@ node default {
   }
 
   # rbenv
-
-  #require ruby::1_9_3
-  require ruby::2_0_0
 
   #class { 'ruby::global':
     #version => '2.0.0'

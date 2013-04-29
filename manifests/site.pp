@@ -103,6 +103,58 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+
+  # heroku
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
+
+  heroku::plugin { 'remote':
+    source => 'tpope/heroku-remote'
+  }
+
+  heroku::plugin { 'binstubs':
+    source => 'tpope/heroku-binstubs'
+  }
+
+  heroku::plugin { 'wildcard':
+    source => 'tpope/heroku-surrogate'
+  }
+
+  # rbenv
+
+  ruby::plugin { 'rbenv-vars':
+    source  => 'sstephenson/rbenv-vars'
+  }
+
+  ruby::plugin { 'rbenv-whatis':
+    source  => 'rkh/rbenv-whatis'
+  }
+
+  ruby::plugin { 'rbenv-use':
+    source  => 'rkh/rbenv-use'
+  }
+
+  ruby::plugin { 'rbenv-update':
+    source  => 'rkh/rbenv-update'
+  }
+
+  ruby::plugin { 'rbenv-gemset':
+    source  => 'jamis/rbenv-gemset'
+  }
+
+  ruby::plugin { 'rbenv-each':
+    source  => 'chriseppstein/rbenv-each'
+  }
+
+  ruby::plugin { 'rbenv-default-gems':
+    source  => 'sstephenson/rbenv-default-gems'
+  }
+
+  ruby::plugin { 'rbenv-sudo':
+    source  => 'dcarley/rbenv-sudo'
+  }
+
   # common, useful packages
   package {
     [

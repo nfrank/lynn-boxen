@@ -265,7 +265,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (3.0.0)
+    stdlib (4.0.0)
 
 DEPENDENCIES
   alfred (>= 0)
@@ -300,7 +300,7 @@ DEPENDENCIES
   redis (>= 0)
   ruby (= 4.0.0)
   skype (>= 0)
-  stdlib (= 3.0.0)
+  stdlib (= 4.0.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   tmux (>= 0)

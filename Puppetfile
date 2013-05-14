@@ -32,7 +32,9 @@ github "stdlib",   "4.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 github "sysctl",   "1.0.0"
 github "xquartz",  "1.0.0"
-github "java",		 "1.0.0"
+github "java",     "1.1.0"
+github "firefox",  "1.0.6"
+github "clojure",  "1.2.0"
 
 
 # my own shit
@@ -50,7 +52,6 @@ mod "googledrive",  :git => "git://github.com/boxen/puppet-googledrive.git"
 mod "ctags",        :git => "git://github.com/boxen/puppet-ctags.git"
 mod "chrome",       :git => "git://github.com/boxen/puppet-chrome.git"
 mod "transmission", :git => "git://github.com/boxen/puppet-transmission.git"
-mod "clojure",      :git => "git://github.com/boxen/puppet-clojure.git"
 mod "zsh",          :git => "git://github.com/boxen/puppet-zsh.git"
 mod "wget",         :git => "git://github.com/boxen/puppet-wget.git"
 mod "vlc",          :git => "git://github.com/boxen/puppet-vlc.git"

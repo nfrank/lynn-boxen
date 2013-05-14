@@ -13,13 +13,6 @@ GIT
     chrome (0.0.1)
 
 GIT
-  remote: git://github.com/boxen/puppet-clojure.git
-  ref: master
-  sha: 33ed2b2136459d7a18c515af73626b10e2e49635
-  specs:
-    clojure (0.0.1)
-
-GIT
   remote: git://github.com/boxen/puppet-ctags.git
   ref: master
   sha: 9218badf661fb189b16b544141402026e3bee88b
@@ -193,9 +186,19 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -220,7 +223,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.0.0)
+    java (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -271,10 +274,11 @@ DEPENDENCIES
   alfred (>= 0)
   boxen (= 1.2.0)
   chrome (>= 0)
-  clojure (>= 0)
+  clojure (= 1.2.0)
   ctags (>= 0)
   dnsmasq (= 1.0.0)
   dropbox (>= 0)
+  firefox (= 1.0.6)
   gcc (= 1.0.0)
   git (= 1.0.0)
   googledrive (>= 0)
@@ -284,7 +288,7 @@ DEPENDENCIES
   imagemagick (>= 0)
   inifile (= 0.9.0)
   iterm2 (>= 0)
-  java (= 1.0.0)
+  java (= 1.1.0)
   macvim (>= 0)
   mongodb (>= 0)
   nginx (= 1.1.0)

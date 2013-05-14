@@ -58,8 +58,10 @@ node default {
 	include sysctl::ipforwarding
 	include xquartz
 	include python
-	#include java
+	include java
 	include ruby
+	include firefox::nightly
+	include clojure
 
 	# my own shit
 	include dropbox
@@ -77,7 +79,6 @@ node default {
 	include chrome
 	include chrome::canary
 	include transmission
-	#include clojure
 	include zsh
 	include wget
 	include vlc
@@ -159,6 +160,31 @@ node default {
 
 	ruby::gem { "powder for ${version}":
 		gem     => 'powder',
+		ruby    => $version
+	}
+
+	ruby::gem { "lunchy for ${version}":
+		gem     => 'lunchy',
+		ruby    => $version
+	}
+
+	ruby::gem { "redcarpet for ${version}":
+		gem     => 'redcarpet',
+		ruby    => $version
+	}
+
+	ruby::gem { "CoffeeTags for ${version}":
+		gem     => 'CoffeeTags',
+		ruby    => $version
+	}
+
+	ruby::gem { "zeus for ${version}":
+		gem     => 'zeus',
+		ruby    => $version
+	}
+
+	ruby::gem { "pygments.rb for ${version}":
+		gem     => 'pygments.rb',
 		ruby    => $version
 	}
 

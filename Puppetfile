@@ -35,6 +35,7 @@ github "xquartz",  "1.0.0"
 github "java",     "1.1.0"
 github "firefox",  "1.0.6"
 github "clojure",  "1.2.0"
+github "postgresql",  "1.0.1"
 
 
 # my own shit
@@ -64,6 +65,7 @@ mod "macvim",       :git => "git://github.com/boxen/puppet-macvim.git"
 mod "python",       :git => "https://github.com/boxen/puppet-python.git"
 mod "postgresapp",  :git => "https://github.com/boxen/puppet-postgresapp.git"
 mod "phantomjs",    :git => "https://github.com/boxen/puppet-phantomjs.git"
+
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

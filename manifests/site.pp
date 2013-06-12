@@ -22,7 +22,7 @@ Exec {
 		"HOMEBREW_CACHE=${homebrew::config::cachedir}",
 		"HOME=/Users/${::luser}"
 	]
-}
+} 
 
 File {
 	group => 'staff',
@@ -60,34 +60,36 @@ node default {
 	include python
 	include java
 	include ruby
-	include firefox::nightly
-	include clojure
+	#include firefox::nightly
+	#include clojure
 
 	# my own shit
-	include dropbox
-	include alfred
+	#include dropbox
+	#include alfred
 	include virtualbox
-	include vagrant
+	#include vagrant
 	include iterm2::stable
-	include postgresapp
+	#include postgresapp
+	include postgresql
+
 	include heroku
 	include pow
 	include imagemagick
-	include skype
+	#include skype
 	include googledrive
-	include ctags
-	include chrome
-	include chrome::canary
-	include transmission
-	include zsh
+	#include ctags
+	#include chrome
+	#include chrome::canary
+	#include transmission
+	#include zsh
 	include wget
 	include vlc
-	include redis
-	include mongodb
-	include propane
-	include onepassword
+	#include redis
+	#include mongodb
+	#include propane
+	#include onepassword
 	include macvim
-	include phantomjs
+	#include phantomjs
 
 	# fail if FDE is not enabled
 	#if $::root_encrypted == 'no' {
@@ -112,7 +114,7 @@ node default {
 
 	#ruby::version {'1.9.3-p194': }
 
-	# heroku
+	#heroku
 	heroku::plugin { 'accounts':
 		source => 'ddollar/heroku-accounts'
 	}
@@ -129,14 +131,15 @@ node default {
 		source => 'tpope/heroku-surrogate'
 	}
 
-	# rbenv
+	## rbenv
 
-	class { 'ruby::global':
-		version => '1.9.3'
-	}
+	#class { 'ruby::global':
+	#	version => '1.9.3'
+	#}
 
 	ruby::version { '1.9.3': }
 	ruby::version { '2.0.0': }
+	ruby::version { '2.0.0-p195': }
 
 	ruby::gem { "pry for ${version}":
 		gem     => 'pry',
@@ -178,48 +181,43 @@ node default {
 		ruby    => $version
 	}
 
-	ruby::gem { "zeus for ${version}":
-		gem     => 'zeus',
-		ruby    => $version
-	}
-
 	ruby::gem { "pygments.rb for ${version}":
 		gem     => 'pygments.rb',
 		ruby    => $version
 	}
 
 	ruby::plugin { 'rbenv-vars':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'sstephenson/rbenv-vars'
 	}
 
 	ruby::plugin { 'rbenv-whatis':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'rkh/rbenv-whatis'
 	}
 
 	ruby::plugin { 'rbenv-use':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'rkh/rbenv-use'
 	}
 
 	ruby::plugin { 'rbenv-update':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'rkh/rbenv-update'
 	}
 
 	ruby::plugin { 'rbenv-gemset':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'jamis/rbenv-gemset'
 	}
 
 	ruby::plugin { 'rbenv-each':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'chriseppstein/rbenv-each'
 	}
 
 	ruby::plugin { 'rbenv-default-gems':
-		version => 'HEAD',
+		version => 'master',
 		source  => 'sstephenson/rbenv-default-gems'
 	}
 
